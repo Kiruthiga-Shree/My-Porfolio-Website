@@ -3,11 +3,7 @@ import img1 from './assets/box1.png'
 import img2 from './assets/box2.png'
 import img3 from './assets/box3.png'
 import img4 from './assets/box4.png'
-import img5 from './assets/box5.png'
-import img6 from './assets/box6.png'
-import img7 from './assets/box7.png'
 import img8 from './assets/box8.png'
-import img9 from './assets/box9.png'
 
 export default function projects() {
     return (
@@ -16,7 +12,7 @@ export default function projects() {
                 <h1>Projects</h1>
                 <div className='boxes'>
                     <div className='box2'>
-                        <div className='box'>
+                        <div className='img'>
                             <a href={img1} target='_blank'><img src={img1} alt="" /></a>
                         </div>
                         <p className='lang'>JAVASCRIPT | HTML | CSS</p>
@@ -25,7 +21,7 @@ export default function projects() {
                         <a href="https://ksrct-35e15.web.app/index.html#home" target='_blank'><button className='project-button'>VIEW PROJECT</button></a>
                     </div>
                     <div className='box2'>
-                        <div className='box'>
+                        <div className='img'>
                             <a href={img2} target='_blank'><img src={img2} alt="" /></a>
                         </div>
                         <p className='lang'>JAVASCRIPT | HTML | CSS |BOOTSTRAP 5 | JQUERY</p>
@@ -34,7 +30,7 @@ export default function projects() {
                         <a href="https://dashboard-294b9.web.app/" target='_blank'><button className='project-button'>VIEW PROJECT</button></a>
                     </div>
                     <div className='box2'>
-                        <div className='box'>
+                        <div className='img'>
                             <a href={img3} target='_blank'><img src={img3} alt="" /></a>
                         </div>
                         <p className='lang'>FIGMA | PROTOTYPING</p>
@@ -45,7 +41,7 @@ export default function projects() {
                         </a>
                     </div>
                     <div className='box2'>
-                        <div className='box'>
+                        <div className='img'>
                             <a href={img4} target='_blank'><img src={img4} alt="" /></a>
                         </div>
                         <p className='lang'>JAVASCRIPT | HTML | CSS</p>
@@ -54,7 +50,7 @@ export default function projects() {
                         <a href="https://krishtec.co.in/#" target='_blank'><button className='project-button'>VIEW PROJECT</button></a>
                     </div>
                     <div className='box2'>
-                        <div className='box'>
+                        <div className='img'>
                             <a href={img8} target='_blank'><img src={img8} alt="" /></a>
                         </div>
                         <p className='lang'> BOOTSTRAP5 | CSS | HTML</p>
