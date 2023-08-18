@@ -5,7 +5,7 @@
 
 .navbar {
   width: 100%;
-  height: 4.75rem;
+  height: 4.3rem;
   flex-shrink: 0;
   background-color: #094722;
 }
@@ -47,139 +47,94 @@
   margin-left: 6.06rem;
 }
 
-#hero {
-  width: 100%;
-  height: 43.75rem;
-  background: #fff;
+
+
+/* hghfgfjyfhyf */
+.front{
   display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 20px;
 }
-
-.sec1 {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1.375rem;
-  padding-left: 6.06rem;
-  padding-top: 12.1rem;
+.front1{
+  flex: 50%;
+  height: 600px;
+  padding: 60px;
 }
-
-#hero img {
-  width: 31.75013rem;
-  height: 31.8125rem;
-  flex-shrink: 0;
-  margin-top: 12.1rem;
-  margin-left: 18rem;
+.front1 h1{
+  color:#133F25;
+  font-size: 65px;
+  font-weight: 700;
 }
-
-.hello {
-  color: #193242;
+.front1 p{
+  color:#131313;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.6875rem;
-  font-style: normal;
+  font-size: 25px;
   font-weight: 400;
-  line-height: normal;
-  width: 14.43754rem;
 }
-
-.sec1 h1 {
-  color: #133F25;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 4rem;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 120%;
-  /* 4.8rem */
-  letter-spacing: 0.06rem;
-  width: 21.625rem;
-}
-
-.intro {
-  color: #193242;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.4375rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%;
-  /* 2.15625rem */
-  width: 26.5rem;
-}
-
-#skills {
-  width: 100%;
-  height: 43.75rem;
-  flex-shrink: 0;
-  background: #F2F7F5;
-  display: inline-flex;
-}
-
-#skills h1 {
-  color: #133F25;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 4rem;
-  font-style: normal;
-  font-weight: 900;
-  line-height: 120%;
-  /* 4.8rem */
-  letter-spacing: 0.06rem;
-  width: 21.625rem;
-  padding-top: 6rem;
-  margin-left: 6.06rem;
-}
-
-#skills p {
-  color: #193242;
-  font-family: Montserrat;
-  font-size: 1.4375rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 160%;
-  /* 2.3rem */
-  width: 32.3125rem;
-  margin-left: 6.06rem;
-  padding-top: 4.94rem;
-}
-
-.right {
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
-  margin-left: 200px;
-  margin-top: 150px;
-}
-
-.row1 {
-  display: flex;
-  gap: 2.5rem;
-}
-
-.box1 {
-  width: 8.25rem;
-  height: 8.25rem;
-  flex-shrink: 0;
-  background-color: #FFF;
-}
-
-.box1 img {
+#front2 img{
   width: 100%;
   height: 100%;
-  padding: 17px;
+  object-fit: contain;
+  padding: 0px;
 }
+/* gbgfcgnfcngfhgf */
 
-.box2 a {
-  text-decoration: none;
+/* skillsets */
+.skill{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 20px;
+  background: #F2F7F5;
+  height: 750px;
 }
+.box{
+  flex: 50%;
+  height: 700px;
+  padding: 60px;
+  /* background-color: red; */
+}
+.box h1{
+  color:#133F25;
+  font-size: 65px;
+  font-weight: 700;
+}
+.box p{
+  color:#131313;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  width: 100%;
+  height: 500px;
+  padding: 0px;
+}
+.skill-img{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  width: 100%;
+  height: 150px;
+  margin-top: 40px;
+}
+.skill-image{
+  width: 160px;
+  height: 150px;
+  padding: 15px;
+  background-color:#FFF;
+}
+.skill-image img{
+  width: 100%;
+  height: 100%;
+}
+/* skillsets end */
 
-#css img {
-  padding: 5px;
-}
 
-#js img {
-  padding: 2px;
-}
+
 
 .main {
-  margin-left: 80px;
-  width: 90%;
+  width: 100%;
+  padding: 50px;
 }
 
 .main h1 {
@@ -188,12 +143,8 @@
   font-size: 4rem;
   font-style: normal;
   font-weight: 900;
-  line-height: 120%;
-  /* 4.8rem */
   letter-spacing: 0.06rem;
-  width: 21.625rem;
-  padding-top: 6rem;
-  margin-right: 2.06rem;
+  margin-left: 80px;
 }
 
 .lang {
@@ -202,7 +153,7 @@
   font-size: 1rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 120%;
+  /* line-height: 120%; */
   /* 1.2rem */
   letter-spacing: 0.3rem;
   width: 60.875rem;
@@ -223,8 +174,8 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  gap: 60px;
-  margin-top: 20px;
+  gap: 80px;
+  padding-top: 50px;
 }
 
 .box2 {
@@ -232,7 +183,14 @@
   border: 1px solid #C8C8C8;
   border-radius: 24px;
   width: 100%;
-  margin-top: 2.19rem;
+}
+.img{
+  width: 100%;
+  height: 500px;
+}
+.img img{
+  width: 100%;
+  height: 100%;
 }
 
 .box2 h2 {
@@ -246,15 +204,6 @@
   letter-spacing: 0.03rem;
 }
 
-.box {
-  width: 100%;
-  height: 40rem;
-}
-
-.box img {
-  width: 100%;
-  height: 100%;
-}
 
 .project-button {
   width: 100%;
@@ -272,7 +221,7 @@
 }
 
 .contact {
-  display: flex;
+  display:flex;
   gap: 8rem;
   width: 100%;
   height: 43.75rem;
@@ -293,17 +242,25 @@
   padding-top: 3.12rem;
   margin-left: 6.06rem;
 }
-
+#pdf{
+  display: none;
+}
+#section{
+  flex: 50%;
+  padding: 60px;
+  margin-left: -350px;
+}
 .girl {
-  width: 27.1875rem;
-  height: 27.1875rem;
-  margin-left: -25rem;
-  margin-top: 12.12rem;
+ width: 100%;
+ height: 550px;
+ margin-top: 100px;
+
 }
 
 .girl img {
-  width: 100%;
+  width: 80%;
   height: 100%;
+  margin-left: -250px;
 }
 
 .sources {
@@ -331,229 +288,152 @@
   border: 1px solid #094722;
 }
 
-.toggle {
+@media(max-width:1430px){
+
+  .skill{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    height: 1200px;
+  }
+  #grid{
+    margin-top: -400px;
+  }
+.lang{
+  width: 30rem;
+}
+.girl{
+  width: 35rem;
+  height: 35rem;
+  margin-left: 0px;
+}
+#pdf{
+  display:inline-flex;
+}
+.src{
+  width: 30rem;
+}
+}
+@media(max-width:768px){
+.front{
+  display: flex;
+  flex-direction: column;
+}
+.front1 p{
+  text-align: center;
+}
+.front1 h1{
+  text-align: center;
+}
+#front2{
+  margin-top: -100px;
+}
+.skill{
+  display: flex;
+  flex-direction: column;
+  height: 2700px;
+  gap:100px;
+}
+#grid{
+  height: 2700px;
+  justify-content: center;
+  margin-top: 150px;
+  position: absolute;
+}
+#skills{
+  height: 800px;
+}
+.box p{
+  font-size: 25px;
+}
+.box{
+  text-align: center;
+}
+.skill-img{
+  display: flex;
+  flex-direction:column;
+  margin-top: 500px;
+  align-items: center;
+}
+.lang{
+  width: 20rem;
+}
+#pdf{
+  display:inline-flex;
+}
+.girl{
   display: none;
 }
-
-@media (max-width:768px) {
-  .box1 {
-    width: 5.25rem;
-    height: 5.25rem;
-    flex-shrink: 0;
-    background-color: #FFF;
-  }
-
-  .box2 a {
-    text-decoration: none;
-  }
-
-  #skills p {
-    width: 21.875rem;
-    padding-top: 1.5rem;
-    text-align: center;
-    font-size: 1rem;
-    margin-left: 0px;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
-  #skills h1 {
-    font-size: 1.5rem;
-    padding-top: 4rem;
-    line-height: 120%;
-    font-weight: 900;
-    letter-spacing: 0.25rem;
-    text-align: center;
-    margin-left: 0px;
-    width: 21.625rem;
-  }
-
-  #skills {
-    height: 52rem;
-
-  }
-
-  .right {
-    position: absolute;
-    margin-left: 10px;
-    margin-top: 27rem;
-  }
-
-  .hello {
-    color: #193242;
-    text-align: center;
-    font-size: 1.6875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 20.43754rem;
-  }
-
-  .sec1 h1 {
-    font-size: 3.5rem;
-    text-align: center;
-    width: 18.625rem;
-  }
-
-  .sec1 {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.375rem;
-    padding-left: 2rem;
-    padding-top: 5.1rem;
-  }
-
-  .intro {
-    align-self: stretch;
-    text-align: center;
-    width: 20rem;
-  }
-
-  #hero {
-    display: flex;
-    flex-direction: column;
-    height: 60rem;
-  }
-
-  #hero img {
-    width: 21.8125rem;
-    height: 21.8125rem;
-    flex-shrink: 0;
-    margin: 0px auto;
-  }
-
-  .main h1 {
-    font-size: 1.5rem;
-    padding-top: 4rem;
-    line-height: 120%;
-    font-weight: 900;
-    letter-spacing: 0.25rem;
-    text-align: center;
-    margin-left: 80px;
-    width: 10.625rem;
-  }
-.contact h1{
-    font-size: 1.5rem;
-    padding-top: 4rem;
-    line-height: 120%;
-    font-weight: 900;
-    letter-spacing: 0.25rem;
-    text-align: center;
-    margin-left: 100px;
-    width: 10rem;
-    
+.src i{
+  font-size: 25px;
 }
-  .main {
-    margin-left: 0px;
+.src h2{
+  font-size: 20px;
+  width:max-content;
+}
+.src{
+  width: 20rem;
+  margin-left: -100px;
+}
+.contact h1{
+  font-size: 2.5rem;
+}
+}
+@media(max-width:425px){
+  .image{
     width: 100%;
-    padding: 10px;
+    height: 450px;
+    padding: 40px;
+    margin-left: -15px;
   }
-
-  .box2 {
-    display: flex;
+  .image img{
     width: 100%;
-    height: 35rem;
-    padding: 16px;
-    flex-direction: column;
-    align-items: flex-start;
-
+    height: 100%;
   }
-
-
-
-  .lang {
-    color: #131313;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 160%;
-    /* 1.2rem */
-    margin-top: 1rem;
-    align-self: stretch;
-    width: 20.875rem;
+  .img{
+    height: 300px;
+    
   }
-
-  .box2 h2 {
-    font-size: 1.5rem;
-    letter-spacing: 0.002rem;
-
+  .img img{
+    object-fit:fill;
   }
-
-  .project-button {
-    display: flex;
-    padding: 1.125rem 1.5625rem;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 0.625rem;
-    align-self: stretch;
-    border-radius: 0.875rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 0.015rem;
-    width: 170%;
+  .box p{
+    font-size: 20px;
   }
-
-
-  .navbar img {
-    margin-left: 1.5rem;
-    position: absolute;
-  }
-
-  .navbar ul {
-    display: none;
-    margin-left: 0px;
-  }
-
-  .navbar li a {
-    color: black;
-    font-size: 1.4rem;
-
-  }
-
-  .navbar li a:active {
-    font-weight: 700;
-    font-size: 1.4rem;
-    color: black;
-  }
-
-  .girl {
+  .navbar ul{
     display: none;
   }
-
-  .sources {
-    width: 24.5rem;
-    height: 21rem;
-    flex-shrink: 0;
-    margin-top: 10rem;
-    margin-left:-395px;
-    padding: 30px;
+  .skill{
+    height: 2800px;
   }
-
-  .src {
-    display: flex;
-    width: 100%;
-    height: 3.4375rem;
-    padding: 1.0625rem 5.375rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem;
-    flex-shrink: 0;
-    border-radius: 0.875rem;
-    border: 1px solid #094722;
-    margin-left: 10px;
-  }
-
-  .toggle {
-    width: 100%;
-    display: flex;
-    align-self: flex-end;
-    align-items:flex-end;
-    justify-content: center;
-    display: initial;
+  #grid{
+    margin-top:200px;
     position: absolute;
-    cursor: pointer;
-    color: white;
+  }
+  #skills{
+    height: 500px;
+  }
+  .lang{
+    width: 13rem;
+  }
+  .main h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-left: 0px;
+  }
+  #pdf{
+    display:inline-flex;
+  }
+  .girl{
+    display: none;
+  }
+  .src{
+    width: 10rem;
+  }
+  
+}
+@media(min-width:1440px){
+  .skill{
+    gap: 200px;
   }
 }
