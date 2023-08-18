@@ -9,9 +9,6 @@ export const Navigation = () => {
         <>
             <nav className='navbar'>
                 <img src={logo} alt="" />
-                {/* <div className="toggle">
-                <i className="fa-solid fa-bars" style={{color:"white",fontSize:30}}></i>
-                </div> */}
                 <ul>
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#skills">Skills</a></li>
